@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flutter</title>
     <script src="flutter.js" defer></script>
+
+    <style>
+      #flutter_host {
+        width: 400px;
+        height: 400px;
+      }
+    </style>
   </head>
   <body>
     <!-- Ensure your flutter target is present on the page... -->
-    <div id="flutter_host">Loading...</div>
+    <h1>Flutter in html</h1>
+    <div id="flutter_host">Loading Counter ..</div>
 
     <script>
       window.addEventListener("load", function (ev) {
